@@ -1,0 +1,30 @@
+{
+  "name": "andersevenrud/frontsms",
+  "description": "Front SMS API PHP Library",
+  "license": "MIT",
+  "version": "0.5.0",
+  "authors": [
+    {
+      "name": "Anders Evenrud",
+      "email": "andersevenrud@gmail.com",
+      "homepage": "https://andersevenrud.github.io"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "FrontSMS\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FrontSMS\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
