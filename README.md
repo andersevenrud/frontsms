@@ -26,6 +26,7 @@ $client->send(12345678, 'hello world')!
 
 ## Changelog
 
+* **0.5.2** - Fixed typo
 * **0.5.1** - Updated composer.json
 * **0.5.0** - Initial release
 

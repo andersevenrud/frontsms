@@ -119,7 +119,7 @@ class FrontSMS
             ]);
         } catch ( ClientException $e ) {
             throw new FrontSMSException($e->getMessage());
-        } catch ( ConnectExceptio $e ) {
+        } catch ( ConnectException $e ) {
             throw new FrontSMSException($e->getMessage());
         }
 
